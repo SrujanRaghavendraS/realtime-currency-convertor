@@ -1,0 +1,53 @@
+:root {
+  /* Palette */
+  --c-page: #e9eef5;          /* grey-blue page */
+  --c-surface: #ffffff;
+  --c-surface-sunk: #f4f7fb;
+  --c-border: #d6dde8;
+  --c-border-strong: #b9c4d4;
+  --c-ink: #13233f;           /* dark navy text */
+  --c-ink-2: #3c4d68;
+  --c-muted: #637389;
+  --c-accent: #1d4f91;        /* steel navy for actions/links */
+  --c-accent-hover: #163d72;
+  --c-focus: #2f6fd0;
+
+  /* Status (restrained) */
+  --c-good: #1c7a4b;
+  --c-good-bg: #e6f4ec;
+  --c-info: #2a5ea6;
+  --c-info-bg: #e7eefa;
+  --c-warn: #9a5b00;
+  --c-warn-bg: #fdf1dc;
+  --c-stale: #b0480f;
+  --c-stale-bg: #fcebdf;
+  --c-bad: #b3261e;
+  --c-bad-bg: #fbe9e7;
+  --c-neutral-bg: #eef1f5;
+
+  /* Type */
+  --font: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.8125rem;
+  --fs-base: 0.9375rem;
+  --fs-md: 1.0625rem;
+  --fs-lg: 1.375rem;
+  --fs-xl: 1.75rem;
+  --lh: 1.5;
+
+  /* Space (4px scale) */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.25rem;
+  --s-6: 1.5rem;
+  --s-8: 2rem;
+
+  /* Shape */
+  --r-sm: 4px;
+  --r-md: 8px;
+  --r-lg: 12px;
+  --r-pill: 999px;
+  --shadow-card: 0 1px 2px rgba(19, 35, 63, 0.06);
+}
